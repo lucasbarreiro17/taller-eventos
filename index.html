@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller de eventos</title>
-    <script src="eventos.js"></script>
+    <script src="eventos.js" defer></script>
 </head>
 <body>
-    <button>Saludar</button>
+    <div id="divBtn" style="padding: 5px; background-color: green;">
+    <button onclick="mostrarAlerta()">Saludar</button> </div>
+    <script>
+        function mostrarAlerta(){
+            alert("Hola!");
+        }
+    </script>
 </body>
 </html>
