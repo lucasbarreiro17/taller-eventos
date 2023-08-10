@@ -8,10 +8,11 @@
 </head>
 <body>
     <div id="divBtn" style="padding: 5px; background-color: green;">
-    <button onclick="mostrarAlerta()">Saludar</button> </div>
+    <button onclick="mostrarAlerta(e)" id="Btn">Saludar</button> </div>
     <script>
-        function mostrarAlerta(){
+        function mostrarAlerta(event){
             alert("Hola!");
+            
         }
     </script>
 </body>
